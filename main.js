@@ -4,11 +4,13 @@
 
 function max(num1, num2) {
     if (num1 > num2) {
-    return (num1);
+    return num1;
 }
     else {
-    return (num2);
+    return num2;
 }
+}
+max (3, 2)
 
 
 // 2.
@@ -25,6 +27,8 @@ function maxOfThree(num1, num2, num3) {
     else if (num3 > num1 && num2) {
     return num3;
 }
+}
+maxOfThree (5, 3, 2)
 
 
 
@@ -33,21 +37,24 @@ function maxOfThree(num1, num2, num3) {
 // A:
 
 function isVowel(char) {
-    if (char == a, e, i, o, u) {
-    return 'true';
+    if (char === 'a', 'e', 'i', 'o', 'u') {
+    return true;
   }
     else {
-    return 'false';
+    return false;
   }
-}
+};
+
+isVowel ('a')
 
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
 // A:
 function sum(num1, num2) {
-    return (num1 + num2);
+    return num1 + num2;
 }
+sum (3, 4)
 
 
 
@@ -58,14 +65,16 @@ function avg(num1, num2, num3) {
     return (num1 + num2 + num3) / 3;
 
 }
+avg (2, 3, 4)
 
 
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // A:
-function getLength(wassup) {
-    return wassup.length;
+function getLength(string) {
+    return string.length;
 }
+getLength('wassup')
 
 
 // 7.
@@ -74,13 +83,14 @@ function getLength(wassup) {
 // Otherwise the function should return `false`.
 // A:
 function greaterThan(num1, num2) {
-    if(num2 > num1)
+    if(num2 > num1) {
     return true;
 } else {
     return false
 }
+};
+greaterThan(1, 3)
 
-}
 
 
 // 8.
@@ -90,8 +100,9 @@ function greaterThan(num1, num2) {
 // is the parameter that was passed in.
 // A:
 function greet(name) {
-    return "Hello, " + Name + "!";
+    return "Hello, " + name + "!";
 }
+greet('Jim')
 
 
 // 9.
